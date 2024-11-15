@@ -1,0 +1,37 @@
+nohup: ignoring input
+Dataset directory: /home/dgxuser16/NTL/mccarthy/ahmad/Projects/ML_Course_Proj/data/twitter
+Output directory: output/
+Training Dataset has 1523665 rows and 2 columns
+Testing Dataset has 359 rows and 2 columns
+sentiment
+0    766980
+1    756685
+Name: count, dtype: int64
+sentiment
+1    182
+0    177
+Name: count, dtype: int64
+Time to transform training data: 13.52534794807434s
+n_samples: %d, n_features: %d (1523665, 266876)
+Time taken to extract features from test data : 0.004287 seconds
+n_samples: 359, n_features: 266876
+Fitting 5 folds for each of 182 candidates, totalling 910 fits
+GridSearchCV completed in 40.85s
+Best parameters found:
+{'alpha': 10, 'binarize': 0.1, 'fit_prior': True}
+Best cross-validation accuracy:
+0.7736398749068856
+Prediction time: 0.010034s
+Accuracy on test set: 82.17%
+Classification report for the optimized classifier: 
+
+              precision    recall  f1-score   support
+
+           0       0.81      0.83      0.82       177
+           1       0.83      0.81      0.82       182
+
+    accuracy                           0.82       359
+   macro avg       0.82      0.82      0.82       359
+weighted avg       0.82      0.82      0.82       359
+
+Model saved as 'best_nb_classifier_model.pkl'
