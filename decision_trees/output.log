@@ -1,0 +1,46 @@
+nohup: ignoring input
+Dataset directory: /home/dgxuser16/NTL/mccarthy/ahmad/Projects/ML_Course_Proj/data/twitter
+Output directory: output/
+Training Dataset has 1523665 rows and 2 columns
+Testing Dataset has 359 rows and 2 columns
+
+Sentiment distribution in Training Data:
+sentiment
+0    766980
+1    756685
+Name: count, dtype: int64
+
+Sentiment distribution in Testing Data:
+sentiment
+1    182
+0    177
+Name: count, dtype: int64
+
+Time to transform training data: 14.77s
+Training Data Shape: n_samples=1523665, n_features=266876
+
+Time taken to extract features from test data: 0.01 seconds
+Testing Data Shape: n_samples=359, n_features=266876
+
+Starting Training for Decision Tree...
+Training completed in 7611.38s
+
+Prediction time: 0.0075s
+Accuracy on test set: 72.14%
+AUC-ROC on test set: 0.7212
+
+Classification report for the classifier: 
+
+              precision    recall  f1-score   support
+
+           0       0.73      0.70      0.71       177
+           1       0.72      0.74      0.73       182
+
+    accuracy                           0.72       359
+   macro avg       0.72      0.72      0.72       359
+weighted avg       0.72      0.72      0.72       359
+
+Confusion matrix heatmap saved as 'confusion_matrix_heatmap.png'
+ROC curve saved as 'roc_curve.png'
+Model saved as 'dt_classifier_model.pkl'
+TfidfVectorizer saved as 'tfidf_vectorizer.pkl'
