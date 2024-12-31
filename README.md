@@ -7,4 +7,4 @@ models:
 6. neural networks
 
 dataset:
-sentiment140 [![kaggle]https://www.kaggle.com/datasets/kazanova/sentiment140]
+[sentiment140](https://www.kaggle.com/datasets/kazanova/sentiment140)
