@@ -1,17 +1,10 @@
-# Comparing-Classification-Models
-In fulfilment for the requirements of the course CSE 303 (Machine Learning)
+models:
+1. logistic regression
+2. naive bayes
+3. decision trees
+4. random forests
+5. support vector machines
+6. neural networks
 
-
-## Models Used:
-1. Naive Bayes:
-```nohup python nb_classifier.py --dataset_dir /home/dgxuser16/NTL/mccarthy/ahmad/Projects/ML_Course_Proj/data/twitter --output_dir output/ > output.log 2>&1 &```
-
-2. Logistic Regression:
-
-3. SVM:
-
-4. Decision Trees:
-
-5. Random Forest:
-
-6. Neural Networks:
+dataset:
+sentiment140 [![kaggle]https://www.kaggle.com/datasets/kazanova/sentiment140]
